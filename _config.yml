@@ -1,0 +1,7 @@
+name: elixir-workshop.simplabs.com
+
+sass:
+  sass_dir: css
+
+gems:
+  - jekyll-sitemap
