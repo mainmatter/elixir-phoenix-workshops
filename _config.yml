@@ -1,7 +1,0 @@
-name: elixir-phoenix-workshops.simplabs.com
-
-sass:
-  sass_dir: css
-
-gems:
-  - jekyll-sitemap
