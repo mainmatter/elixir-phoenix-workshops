@@ -314,9 +314,6 @@ i.elixir {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  transition: filter ease-in-out .15s, -webkit-filter ease-in-out .15s;
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -328,9 +325,6 @@ i.phoenix {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  transition: filter ease-in-out .15s, -webkit-filter ease-in-out .15s;
   display: inline-block;
   width: 200px;
   height: 100px;
