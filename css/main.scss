@@ -19,7 +19,7 @@ p {
 .title {
   padding: 80px 0 100px 0;
   text-align: center;
-  
+  color: #fff;
   background: #6c2580; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(135deg,  #6c2580, #e54e22); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(135deg, #6c2580, #e54e22); /* For Opera 11.1 to 12.0 */
@@ -30,23 +30,23 @@ p {
     margin-bottom: 10px;
   }
 
-  h3 {
-    color: #fff;
+  h2 {
     margin: 0 0 40px 0;
     font-size: 20px;
     font-weight: lighter;
-
-    span {
-      font-weight: 500;
-    }
   }
 
   h1 {
-    color: #688f85;
     font-weight: 300;
     line-height: 150%;
-    font-size: 24px;
+    font-size: 32px;
     margin: 80px 0 40px 0;
+  }
+
+  h2, h1 {
+    strong {
+      font-weight: 450;
+    }
   }
 
   h3 {
@@ -55,14 +55,13 @@ p {
 
   h4 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 130%;
     margin: 0;
-  }
 
-  h3, h4 {
     a {
-      color: #e04a31;
+      color: #fff;
+      text-decoration: underline;
     }
   }
 
@@ -102,17 +101,17 @@ p {
 
     .input-group {
       input.form-control {
-        border-color: #688f85;
+        border-color: #fff;
       }
 
       .input-group-addon {
-        background-color: #688f85;
-        border-color: #688f85;
+        background-color: #000;
+        border-color: #000;
 
         button {
           color: #fff;
           font-weight: bold;
-          background-color: #688f85;
+          background-color: #000;
           border: none;
 
           &:focus {
@@ -123,7 +122,7 @@ p {
     }
 
     .text-success {
-      color: #688f85;
+      color: #000;
     }
 
     .text-danger, .text-success {
