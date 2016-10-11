@@ -17,7 +17,7 @@ p {
 }
 
 .title {
-  padding: 60px 0 60px 0;
+  padding: 80px 0 80px 0;
   text-align: center;
   color: #fff;
   background: #6c2580; /* For browsers that do not support gradients */
@@ -150,9 +150,11 @@ a.register {
   border-radius: 5px;
 }
 
-.workshops {
+.phoenix-elixir {
   h3 {
-    color: #e04a31;
+    color: #000;
+    font-weight: normal;
+    text-align: center;
   }
 
   a {
@@ -168,15 +170,17 @@ a.register {
 }
 
 .description {
-  background-color: #e7f2ef;
+  background-color: #6c2580;
 
-  h3 {
-    color: #e04a31;
+  h3, p {
+    color: #fff;
+    font-weight: normal;
   }
+
 
   .details {
     h5 {
-      color: #e04a31;
+      color: #fff;
     }
 
     a.register {
