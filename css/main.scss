@@ -171,6 +171,9 @@ a.register {
 
 .description {
   background-color: #6c2580;
+  h3 {
+    text-align: center;
+  }
 
   h3, p {
     color: #fff;
@@ -191,18 +194,22 @@ a.register {
 }
 
 .schedule {
-  background-color: #e4f7fd;
+  background-color: #e54e22;
 
   &.alternate {
     background-color: #fff;
   }
 
-  h3, h5 {
-    color: #1f71b5;
+  h3, h5, p {
+    color: #fff;
+  }
+
+  h3 {
+    text-align: center;
   }
 
   a.register {
-    background-color: #1f71b5;
+    background-color: #e54e22;
     color: #fff;
   }
 }
@@ -215,10 +222,11 @@ a.register {
     h5, h6 {
       font-size: 18px;
       margin-top: 0;
+      color: #fff;
     }
 
     ul {
-      color: #656565;
+      color: #fff;
       margin: 0;
       padding: 0;
       list-style-type: none;
@@ -226,7 +234,7 @@ a.register {
 
       &.format {
         hr {
-          border-top: 1px dotted #656565;
+          border-top: 1px dotted #fff;
           width: 50%;
         }
       }
@@ -268,21 +276,12 @@ a.register {
 }
 
 .instructors {
-  background-color: #e7f2ef;
+  background-color: #fff;
 
   h3 {
-    color: #688e85;
+    color: #000;
     margin-bottom: 60px;
-  }
-
-  h4 {
-    color: #656565;
-    font-size: 18px;
-    margin: 0 0 20px 0;
-
-    .company {
-      display: block;
-    }
+    text-align: center;
   }
 
   .profile-link {
@@ -346,13 +345,13 @@ i:hover {
 }
 
 .footer {
-  background-color: #e4f7fd;
+  background-color: #6c2580;
   padding: 10px 0;
   font-size: 12px;
+  color: #fff;
 
   a {
-    color: #656565;
-
+    color: #fff;
     &:hover {
       text-decoration: none;
     }
