@@ -103,6 +103,7 @@ p {
       input.form-control {
         border-color: #fff;
         border-radius: 0;
+        box-shadow: none;
       }
 
       .input-group-addon {
@@ -113,6 +114,7 @@ p {
         button {
           color: #fff;
           font-weight: normal;
+          font-size: 13px;
           background-color: #000;
           border: none;
 
