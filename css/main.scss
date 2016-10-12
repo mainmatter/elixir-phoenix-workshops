@@ -352,12 +352,18 @@ i:hover {
   background-color: #fff;
   padding: 10px 0;
   font-size: 12px;
-  color: #fff;
 
   a {
     color: #000;
+
     &:hover {
       text-decoration: none;
+    }
+  }
+
+  .links {
+    a {
+      margin-left: 10px;
     }
   }
 
