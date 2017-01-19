@@ -35,17 +35,17 @@ code {
     margin-bottom: 10px;
   }
 
-  h2 {
-    margin: 0 0 40px 0;
-    font-size: 24px;
-    font-weight: lighter;
-  }
-
   h1 {
     font-weight: 300;
     line-height: 150%;
     font-size: 32px;
+    margin: 0 0 40px 0;
+  }
+
+  h2 {
     margin: 80px 0 40px 0;
+    font-size: 22px;
+    font-weight: lighter;
   }
 
   h2, h1 {
@@ -56,13 +56,23 @@ code {
 
   h3 {
     margin: 0 0 80px 0;
+    font-weight: 900;
+    font-size: 24px;
+
+    .register-now {
+      color: #fff;
+      display: block;
+      font-size: 18px;
+      margin: 8px;
+      text-decoration: underline;
+    }
   }
 
   h4 {
+    margin: 0;
     font-weight: normal;
     font-size: 15px;
     line-height: 130%;
-    margin-top: 30px;
 
     a {
       color: #fff;
@@ -102,7 +112,7 @@ code {
   }
 
   .register-form {
-    margin: 20px 0 40px;
+    margin: 10px 0 0 0;
 
     .input-group {
       input.form-control {
@@ -203,58 +213,79 @@ a.register {
     color: #000;
   }
 
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  h6 {
+    font-weight: 500;
+  }
+
   a {
     color: #000;
     text-decoration: underline;
   }
-}
 
-.workshop {
+  .topic {
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
   .details {
-    margin-top: 40px;
     margin-bottom: 20px;
 
-    h5, h6 {
+    p, ul {
+      font-size: 14px;
+    }
+
+    h6 {
       font-size: 18px;
       margin-top: 0;
       color: #000;
     }
 
     ul {
-      color: #000;
-      margin: 0;
-      padding: 0;
       list-style-type: none;
       text-align: justify;
+      color: #000;
+      margin: 0 0 10px 0;
+      padding: 0;
 
-      &.format {
-        hr {
-          border-top: 1px dotted #fff;
-          width: 50%;
-        }
-      }
-
-      &.topics {
-        margin-bottom: 10px;
-        margin-left: .8em;
-
-        li:before {
-          content: "\f192";
-          font-family: FontAwesome;
-          display: inline-block;
-          margin-left: -1.3em;
-          width: 1.3em;
-          font-size: 50%;
-          vertical-align: middle;
-        }
+      li:before {
+        content: "\f192";
+        font-family: FontAwesome;
+        display: inline-block;
+        width: 1.5em;
+        font-size: 50%;
+        vertical-align: middle;
       }
     }
 
-    .date {
-      text-align: center;
+    p.time:before {
+      font-family: FontAwesome;
+      display: inline-block;
+      width: 1em;
+      vertical-align: middle;
+    }
 
-      p span {
-        display: block;
+    &.lecture {
+      p.time:before {
+        content: "\f130";
+      }
+    }
+
+    &.exercise {
+      p.time:before {
+        content: "\f040";
+      }
+    }
+
+    &.lunch {
+      p.time:before {
+        content: "\f0f5";
       }
     }
   }
@@ -299,9 +330,14 @@ a.register {
 .tickets {
   padding-bottom: 50px;
 
-  a.register {
-    background-color: #e04a31;
-    color: #fff;
+  a {
+    color: #6c2580;
+  }
+
+  .on-site-option {
+    p {
+      text-align: center;
+    }
   }
 }
 
@@ -347,7 +383,7 @@ i:hover {
 }
 
 .footer {
-  background-color: #fff;
+  color: #000;
   padding: 10px 0;
   font-size: 12px;
 
