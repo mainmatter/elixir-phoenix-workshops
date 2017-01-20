@@ -167,6 +167,13 @@ a.register {
   border-radius: 5px;
 }
 
+a.anchor {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  color: transparent;
+}
+
 .phoenix-elixir {
   h3 {
     color: #000;
