@@ -690,7 +690,7 @@ title: From Rails to Elixir & Phoenix Workshop
                 mapTypeId:        google.maps.MapTypeId.ROADMAP,
                 disableDefaultUI: true
               });
-              map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+              map.setOptions({draggable: false, zoomControl: true, scrollwheel: false, disableDoubleClickZoom: true});
               var marker = new google.maps.Marker({
                 map:       map,
                 position:  position,
