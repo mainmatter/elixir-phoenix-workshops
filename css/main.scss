@@ -235,6 +235,10 @@ a.anchor {
     text-decoration: underline;
   }
 
+  .day {
+    margin-top: 20px;
+  }
+
   .topic {
     p {
       margin-bottom: 20px;
@@ -251,6 +255,7 @@ a.anchor {
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
     
     &:hover {
       background-color: #e54e22;
