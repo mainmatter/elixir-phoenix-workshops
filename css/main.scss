@@ -367,9 +367,15 @@ a.anchor {
   h3 {
     margin-bottom: 60px;
   }
+
+  .address > span {
+    display: block;
+    clear: both;
+    font-weight: bold;
+  }
   
   #map-canvas {
-    height: 400px;
+    height: 300px;
     margin: 20px 0 10px;
   }
 }
@@ -522,7 +528,7 @@ i:hover {
     }
 
     #map-canvas {
-      margin: 20px 0 0 15px;
+      margin: 20px 0 0;
     }
   }
 }
