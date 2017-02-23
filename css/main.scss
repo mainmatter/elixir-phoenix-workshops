@@ -252,14 +252,15 @@ a.anchor {
     border-style: solid;
     padding: 5px 50px 5px 50px;
     transition: color ease-in-out .15s, background-color ease-in-out .15s;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    
+    background-color: #000;
+    color: #fff;
+
     &:hover {
-      background-color: #e54e22;
-      color: #fff;
+      background-color: #6c2580;
     }
   }
 
