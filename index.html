@@ -65,6 +65,28 @@ title: From Rails to Elixir & Phoenix Workshop
         </li>
       </ul>
     </div>
+    <script type="text/javascript">
+      Zepto(function($) {
+        var parent = $('.quotes');
+        var elements = parent.find('ul li');
+        var maxHeights = elements.map(function(i, elem) {
+          return elem.scrollHeight;
+        });
+        debugger;
+        var maxHeight = Math.max.apply(null, maxHeights);
+        elements.each(function(i, elem) {
+          $(elem).css('height', maxHeight + 'px');
+        });
+        parent.css('height', maxHeight + 'px');
+
+        var i = 0;
+        setInterval(function() {
+          elements.css('opacity', 0);
+          $(elements[i % elements.length]).css('opacity', 1);
+          i++;
+        }, 5000);
+      }); 
+    </script>
   </div>
 </div>
 
